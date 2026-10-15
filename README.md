@@ -1,5 +1,6 @@
 # Svet Dekorja – shop + admin
 
+![Screenshot description](screenshot.png)
 ```
 server/   Express + SQLite API (port 4000): login, products/categories/blog/attributes CRUD, page layout, uploads
 admin/    React admin panel (dev: 5174, served at /admin)
@@ -16,3 +17,6 @@ public/products.json   product export (≈10 800 products) – imported into the
 - `price` is treated as the current price; if `specialPrice` is higher it is shown as the crossed-out regular price.
 - Category ids → storefront groups (Tapete, Fototapete, …) are defined in `server/index.js` (GROUPS); names were inferred from product names – check/rename.
 - Products without `categoryId` are assigned by name (… foto … → Fototapete, … tapet… → Tapete).
+
+
+
